@@ -1,8 +1,8 @@
 import argparse
 from datetime import datetime
 
-from src.data_processor import load_and_merge_data, clean_data, calculate_metrics
-from src.report_generator import generate_report
+from data_processor import load_and_merge_data, clean_data, calculate_metrics
+from report_generator import generate_report
 from config import DEFAULT_FOLDER
 
 
